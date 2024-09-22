@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+h1 {
+  @apply text-4xl
+}
+
+h3 {
+  @apply text-2xl font-bold 
+}
+
+#link {
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+}
+
+#link:hover {
+  color: #94A3B8; /* Change this to your desired hover color */
+  transform: scale(1.05); /* Slightly scale the link on hover */
+  @apply underline
+}
+
+#button {
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+  @apply bg-purple-600
+}
+
+#button:hover {
+  @apply bg-purple-800 underline
+}
+
