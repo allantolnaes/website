@@ -32,7 +32,7 @@ export default function About() {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">As a Musician</h2>
                 <p className="text-lg leading-relaxed">
-                  I've played in orchestras and bands as a lead singer and instrumentalist. I started playing music from a young age, and I’ve had the honor of being the kapellmeister of a big band. My passion for music continues to grow, and I love sharing it with others.
+                  I've played in orchestras and bands as a lead singer and instrumentalist. Test. I started playing music from a young age, and I’ve had the honor of being the kapellmeister of a big band. My passion for music continues to grow, and I love sharing it with others.
                 </p>
               </section>
 
